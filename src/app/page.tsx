@@ -7,7 +7,11 @@ export default function Home() {
         apiuwdhuaiwhdiuawndjnwka
         
 
+        ll
+
+
 cool potato 
+
 
         <Image
           className="dark:invert"
