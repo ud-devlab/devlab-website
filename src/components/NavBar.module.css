@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+
+.navbarLeft {
+    flex: 0;
+}
+
+.navbarRight {
+    flex: 1;
+    text-align: right;
+}
+
+.navbarLink {
+    color: white;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.075s linear color;
+}
+
+.navbarLink:not(:last-child) {
+    padding-right: 1rem;
+}
+
+.navbarLink:hover {
+    color: #ddd;
+}
+
+.navbarLinkHighlighted {
+    color: #bbb;
+    cursor: none;
+}
