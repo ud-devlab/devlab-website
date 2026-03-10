@@ -1,8 +1,10 @@
+import { NavBar } from "../components/NavBar";
+
 export function Resources() {
     return (
         <div>
-            <h1>DevLab website</h1>
-            <p>Welcome to the resources page</p>
+            <NavBar currentPage="resources" />
+            <div className="content"></div>
         </div>
     );
 }
