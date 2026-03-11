@@ -1,0 +1,53 @@
+.mainBox {
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mainBox h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.mainBox .description {
+    font-size: 1.5rem;
+}
+
+.leadershipBox {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.leadershipBox h2 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.leadershipRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem;
+}
+
+.leadershipMember {
+    flex: 1;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.leadershipMember h3 {
+    font-size: 1.4rem;
+}
+
+.leadershipMember span {
+    margin-left: 1rem;
+    font-weight: normal;
+}
+
+.leadershipMember p {
+    font-size: 1.2rem;
+}
