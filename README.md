@@ -18,6 +18,8 @@ We are currently working on setting up the base site and design.
 
 When making a new page, create a new branch for the page called `feature/page-name`. For example, the home page branch is called `feature/home-page`.
 
+To make a new branch, use the command `git checkout -b <branch-name>`. When you're done or want to return to main for whatever reason, use `git checkout main`. To return to your branch or any other branch, use `git checkout <branch-name>`.
+
 Commit your work to your branch as necessary and push it to the repository. When the page is completed, create a pull request and describe your changes. If it is accepted, you'll need to pull the new code into main on your local machine. If not, you'll need to modify your branch, push it again, and make a new pull request with the issues fixed.
 
 We're still thinking about the layout and design of the website. If you have any suggestions for how it should look or any other helpful resources or information, make an issue. Thanks!
