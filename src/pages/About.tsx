@@ -15,7 +15,11 @@ export function About() {
                     <div className={styles.leadershipRow}>
                         <div className={styles.leadershipMember}>
                             <h3>Avneet Aurora <span>PRESIDENT</span></h3>
-                            <p>Description</p>
+                            <p>Major: Computer Engineering</p>
+                            <p>Class of 2029</p>
+                            <p>Email: aavneet@udel.edu</p>
+                            <p><a href="https://www.linkedin.com/in/avneetaurora/">LinkedIn</a></p>
+                            <p><a href="https://github.com/Avi702">Github</a></p>
                         </div>
                         <div className={styles.leadershipMember}>
                             <h3>Michael Rothkopf <span>PRESIDENT</span></h3>
