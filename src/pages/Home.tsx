@@ -8,7 +8,7 @@ export function Home() {
             <NavBar currentPage="home" />
             <div className="content">
                 <div className={styles.mainBox}>
-                    <h1 className={styles.landingTitle}>DevLab</h1>
+                    <h1 className={styles.landingTitle}>&#123;DevLab&#125;</h1>
                     <p className={styles.description}>Our club develops apps in a collaborative, beginner-friendly environment.</p>
                 </div>
                 <div className={styles.infoCards}>

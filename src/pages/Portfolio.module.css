@@ -14,60 +14,28 @@
     background: linear-gradient(-45deg, #e65100, #ff6d00, #bf360c, #ff8f00);
     background-size: 400% 400%;
     animation: gradientShift 8s ease infinite;
-    font-family: Noto Sans, sans-serif;
+    font-size: 3rem;
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
     font-family: Bitcount Grid Double;
     color: #FFFFFF;
-    font-size: 3rem;
 }
-
-.mainBox h1 {
-    font-size: 4rem;
-    font-weight: normal;
-    margin-bottom: 1rem;
-}
-
-.mainBox .description {
-    font-size: 1.5rem;
-}
-
-.leadershipBox {
-    margin-top: 5rem;
-    width: 100%;
-    text-align: center;
-}
-
-.leadershipBox h2 {
-    font-size: 3rem;
-    font-weight: normal;
-}
-
-.leadershipRow {
+.projectRow{
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 0 10rem;
 }
-
-.leadershipMember {
-    flex: 1;
+.projectbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100rem;
+    height: 10rem;
     text-align: center;
-    color: black;
-    text-decoration: none;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1rem;
 }
-
-.leadershipMember h3 {
-    font-size: 1.4rem;
-}
-
-.leadershipMember span {
-    margin-left: 1rem;
-    font-weight: normal;
-}
-
-.leadershipMember p {
-    font-size: 1.2rem;
-}
-
