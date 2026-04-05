@@ -1,19 +1,37 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.mainBox {
-    margin: 0 auto;
-    padding: 1rem;
-    text-align: center;
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.mainBox h1 {
-    font-size: 8rem;
+
+.mainBox{
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-45deg, #e65100, #ff6d00, #bf360c, #ff8f00);
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease infinite;
+    font-size: 5rem;
     font-weight: normal;
-    margin-bottom: 1rem;
+    font-family: Bitcount Grid Double;
+    color: #FFFFFF;
 }
 
 .mainBox .description {
     font-size: 2rem;
+    margin-top:-7rem;
 }
 
 .infoCards {
@@ -25,14 +43,21 @@
 }
 
 .infoCard {
-    flex: 1;
+    width: 100rem;
+    height: 10rem;
     text-align: center;
     color: black;
+    background-color: #fdf4f4;
     text-decoration: none;
     transition: 0.2s ease-in-out color;
     font-size: 1.25rem;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius : 30px; 
 }
 
 .infoCard:hover {
-    color: #777;
+    transform: scale(1.1);
+    transition: 0.2s;
+    border: 2px solid orange;
 }

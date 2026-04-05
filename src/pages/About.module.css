@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .mainBox {
+    background-color: #D9775A;
+    font-family: Noto Sans, sans-serif;
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
@@ -51,3 +54,4 @@
 .leadershipMember p {
     font-size: 1.2rem;
 }
+
