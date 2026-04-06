@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .navbar {
     width: 100%;
     padding: 0.8rem;
@@ -6,6 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: #222;
+    font-family: Noto Sans, sans-serif;
 }
 
 .navbarLeft {

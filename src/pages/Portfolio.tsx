@@ -7,6 +7,7 @@ export function Portfolio() {
             <div className="content">
             <div className={styles.mainBox}>
                 <h1>Projects</h1>
+                <span className={styles.description}>See what we've been up to! Your work can also be apart of this list!</span>
             </div>
             <div className = {styles.projectRow}>
                     <div className = {styles.projectbox}>
