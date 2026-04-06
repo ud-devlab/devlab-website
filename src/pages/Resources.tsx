@@ -5,6 +5,7 @@ export function Resources() {
         <div>
             <NavBar currentPage="resources" />
             <div className="content">
+                <title>Resources</title>
                 <div className ={styles.mainBox}>
                     <h1>Resources</h1>
                     <span className={styles.description}>Need something? It's probably here</span>

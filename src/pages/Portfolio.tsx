@@ -5,6 +5,7 @@ export function Portfolio() {
         <div>
             <NavBar currentPage="portfolio" />
             <div className="content">
+            <title>Portfolio</title>
             <div className={styles.mainBox}>
                 <h1>Projects</h1>
                 <span className={styles.description}>See what we've been up to! Your work can also be apart of this list!</span>

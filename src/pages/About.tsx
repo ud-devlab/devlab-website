@@ -6,6 +6,7 @@ export function About() {
         <div>
             <NavBar currentPage="about" />
             <div className="content">
+                <title>About Us</title>
                 <div className={styles.mainBox}>
                     <h1 className={styles.landingTitle}>About Us</h1>
                     <p className={styles.description}>Our club allows programmers of all levels to contribute to real, resume-building team projects.</p>
